@@ -1,30 +1,25 @@
-# Codveda Data Science Internship
+# Level 1 – Task 1: Web Scraping
 
-## Level 1 – Basic Tasks
+## Description
+This project demonstrates web scraping using Python to collect data from a public website.
 
-This repository contains my completed Level 1 tasks for the Codveda Data Science Internship.
+## Website Scraped
+https://quotes.toscrape.com
 
-### Task 1: Web Scraping
-- Collected data from a public website using Python
-- Used requests and BeautifulSoup
-- Handled pagination
-- Stored scraped data in CSV format
-
-### Task 2: Data Cleaning & Preprocessing
-- Cleaned a real-world house price dataset
-- Handled missing values
-- Removed outliers using IQR method
-- Encoded categorical variables
-- Standardized numerical features
-
-## Tools & Technologies
+## Tools & Libraries
 - Python
-- pandas
-- numpy
-- scikit-learn
-- BeautifulSoup
 - requests
+- BeautifulSoup
+- pandas
+
+## Process
+- Inspected website structure
+- Extracted quotes, authors, and tags
+- Handled pagination
+- Stored data in CSV format
+
+## Output
+`scraped_quotes.csv` containing all scraped quotes.
 
 ## Author
-Ing Magloire  
-Codveda Data Science Intern
+Codveda Data Science Internship – Level 1
