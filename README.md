@@ -1,25 +1,29 @@
-# Level 1 – Task 1: Web Scraping
+# Level 1 – Task 2: Data Cleaning & Preprocessing
 
 ## Description
-This project demonstrates web scraping using Python to collect data from a public website.
+This task focuses on cleaning and preprocessing a raw dataset to make it suitable for analysis and machine learning models.
 
-## Website Scraped
-https://quotes.toscrape.com
+## Dataset
+House Prediction Data Set
 
 ## Tools & Libraries
 - Python
-- requests
-- BeautifulSoup
 - pandas
+- numpy
+- scikit-learn
 
-## Process
-- Inspected website structure
-- Extracted quotes, authors, and tags
-- Handled pagination
-- Stored data in CSV format
+## Data Cleaning Steps
+- Loaded the raw dataset using pandas
+- Handled missing values:
+  - Numerical features filled with mean values
+  - Categorical features filled with mode
+- Detected and removed outliers using the IQR method
+- Converted categorical variables into numerical format using One-Hot Encoding
+- Standardized numerical features using StandardScaler
 
 ## Output
-`scraped_quotes.csv` containing all scraped quotes.
+- `cleaned_house_data.csv`: Cleaned and preprocessed dataset ready for machine learning
 
-## Author
-Codveda Data Science Internship – Level 1
+## How to Run
+```bash
+python task2.py
